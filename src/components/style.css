@@ -1,0 +1,34 @@
+/* Light-up bg of icons */
+.logo {
+    height: 6em;
+    padding: 0.2em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(4px 4px 2em #ffffffff);
+}
+
+.w-20:hover {
+    filter: drop-shadow(0 0 2em #ffffffff);
+}
+
+
+.about__container,
+.info__list,
+.stats {
+    grid-template-columns: repeat(2, auto);
+}
+
+.info__list {
+    row-gap: 20px;
+    margin-bottom: 32px;
+}
+
+.sector__subtitle {
+    margin-bottom: 20px;
+}
+
+.info__item {
+    margin-right: 10px;
+}
