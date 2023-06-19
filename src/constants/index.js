@@ -35,7 +35,7 @@ export const navLinks = [
     title: "SERVICIOS",
   },
   {
-    id: "https://goldspy.site/panel",
+    id: "https://panel.goldspy.site/",
     title: "PANEL DE USUARIOS",
   },
   {
